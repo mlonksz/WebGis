@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>puskesmas</name>
+	<Placemark id="1.2.1">
+		<name>Puskesmas Desa Wonolelo</name>
+		<address>4C9H+2WQ, Guyangan, Wonolelo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</address>
+		<snippet>4C9H+2WQ, Guyangan, Wonolelo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a53f905739ef5:0x717973aae5c4b70e&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a53f905739ef5:0x717973aae5c4b70e&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.429852,-7.882419000000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Puskesmas Pembantu Wonolelo</name>
+		<address>4C9H+2WH, Guyangan, Wonolelo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</address>
+		<snippet>4C9H+2WH, Guyangan, Wonolelo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a53c0295e41b3:0x1af07ec918f3c126&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a53c0295e41b3:0x1af07ec918f3c126&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4298693,-7.882433,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Puskesmas Piyungan</name>
+		<address>Jalan Jogja Wonosari No.Km.12, Bantaran Wetan, Srimulyo, Kec. Piyungan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55792</address>
+		<phoneNumber>0812-2755-4720</phoneNumber>
+		<snippet>Jalan Jogja Wonosari No.Km.12, Bantaran Wetan, Srimulyo, Kec. Piyungan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55792</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a50de97280977:0xb23d11ba46298184&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a50de97280977:0xb23d11ba46298184&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.458557,-7.831058,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Puskesmas Dlingo II</name>
+		<address>4F93+W37, Jl. Pencitrejo, Kebo Kuning, Terong, Kec. Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55783</address>
+		<snippet>4F93+W37, Jl. Pencitrejo, Kebo Kuning, Terong, Kec. Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55783</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a532a3c28fc8f:0xf44c2a81fd188cd5&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a532a3c28fc8f:0xf44c2a81fd188cd5&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4526549,-7.880209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Puskesmas Pembantu Segoroyoso</name>
+		<address>4CF5+4F8, Jl. Segoroyoso, RT.04/RW.06, Kloron, Segoroyoso, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</address>
+		<snippet>4CF5+4F8, Jl. Segoroyoso, RT.04/RW.06, Kloron, Segoroyoso, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a556ded1794b5:0xc86f443c2caa0afd&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a556ded1794b5:0xc86f443c2caa0afd&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4087184,-7.877208599999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Puskesmas Jetis I</name>
+		<address>Jl. Imogiri Barat No.Km.12, RW.05, Ponggok I, Trimulyo, Kec. Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55781</address>
+		<phoneNumber>(0274) 2810121</phoneNumber>
+		<snippet>Jl. Imogiri Barat No.Km.12, RW.05, Ponggok I, Trimulyo, Kec. Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55781</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a55ca64b6c13f:0x1dcd9fd5d57a7d00&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a55ca64b6c13f:0x1dcd9fd5d57a7d00&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3751182,-7.897901399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Puskesmas Berbah</name>
+		<address>Jl. Sekarsuli - Berbah, Sribit, Sendangtirto, Kec. Berbah, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55573</address>
+		<phoneNumber>(0274) 2841790</phoneNumber>
+		<snippet>Jl. Sekarsuli - Berbah, Sribit, Sendangtirto, Kec. Berbah, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55573</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a50cc45516ebf:0xc04be4bc964235f9&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a50cc45516ebf:0xc04be4bc964235f9&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4300703,-7.820322399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Puskesmas Pleret</name>
+		<address>Jl. Imogiri Tim. No.KM, RW.9, Jati, Wonokromo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191</address>
+		<phoneNumber>(0274) 4399829</phoneNumber>
+		<snippet>Jl. Imogiri Tim. No.KM, RW.9, Jati, Wonokromo, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a54360043868f:0x18b9e1f6e71c94f3&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a54360043868f:0x18b9e1f6e71c94f3&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3896813,-7.864286,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>PHC Banguntapan 1</name>
+		<address>5CC7+7GH, depan puskesmas Banguntapan I Jl. Ngipik, Wiyoro, Baturetno, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55197</address>
+		<phoneNumber>(0274) 383104</phoneNumber>
+		<snippet>5CC7+7GH, depan puskesmas Banguntapan I Jl. Ngipik, Wiyoro, Baturetno, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55197</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a57300ec32337:0xffdc103a686be36c&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a57300ec32337:0xffdc103a686be36c&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4139518,-7.829299899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Puskesmas Banguntapan III</name>
+		<address>Jl. Karangsari No.100, RT.15/RW.36, Pringgolayan, Kapanewon, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55198</address>
+		<phoneNumber>(0274) 4544667</phoneNumber>
+		<snippet>Jl. Karangsari No.100, RT.15/RW.36, Pringgolayan, Kapanewon, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55198</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.85089&lng=110.396&fid=0x2e7a5769ada5a1d9:0x68b33c42a512b3cc&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.85089&amp;lng=110.396&amp;fid=0x2e7a5769ada5a1d9:0x68b33c42a512b3cc&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4060459,-7.807877299999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+</Folder>
+</kml>

@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebGIS Fasilitas Kesehatan DIY</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-compass/dist/leaflet-compass.min.css" />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+
+      /* ===== JUDUL ===== */
+      #title {
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #0d47a1;
+        color: white;
+        padding: 16px 50px;
+        border-radius: 12px;
+        z-index: 1000;
+        text-align: center;
+      }
+      #title h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      #title small {
+        font-size: 14px;
+      }
+
+      /* ===== LEGEND CONTROL ===== */
+      .leaflet-control-layers {
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      /* ===== CUSTOM LEGEND ===== */
+      #custom-legend {
+        position: absolute;
+        left: 20px;
+        bottom: 30px;
+        background: #c8f4f7;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        padding: 20px 28px 20px 20px;
+        z-index: 1200;
+        min-width: 220px;
+      }
+      #custom-legend h3 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      .legend-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .legend-color {
+        width: 22px;
+        height: 22px;
+        border-radius: 6px;
+        margin-right: 10px;
+        border: 2px solid #fff;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+      }
+      #reset-btn {
+        margin-top: 10px;
+        width: 100%;
+        background: #d6f8f9;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #0d47a1;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      #reset-btn:hover {
+        background: #b2ebf2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="title">
+      <h1>Sebaran Fasilitas Kesehatan</h1>
+      <small>Daerah Istimewa Yogyakarta</small>
+      <div style="margin-top: 10px; font-size: 15px; background: #e3f2fd; padding: 10px 18px; border-radius: 8px; color: #222; max-width: 500px">
+        Peta ini menampilkan sebaran fasilitas kesehatan (Rumah Sakit & Puskesmas) di wilayah Daerah Istimewa Yogyakarta beserta batas administrasi kabupaten/kota. Klik marker untuk melihat nama dan alamat fasilitas.
+      </div>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Custom Legend -->
+    <div id="custom-legend">
+      <h3>LEGENDA PETA</h3>
+      <div class="legend-item" data-layer="kota"><span class="legend-color" style="background: #ef5350"></span> <span class="legend-label">Kota Yogyakarta</span></div>
+      <div class="legend-item" data-layer="sleman"><span class="legend-color" style="background: #42a5f5"></span> <span class="legend-label">Sleman</span></div>
+      <div class="legend-item" data-layer="bantul"><span class="legend-color" style="background: #66bb6a"></span> <span class="legend-label">Bantul</span></div>
+      <div class="legend-item" data-layer="kulonprogo"><span class="legend-color" style="background: #ffee58; border: 2px solid #bbb"></span> <span class="legend-label">Kulon Progo</span></div>
+      <div class="legend-item" data-layer="gunungkidul"><span class="legend-color" style="background: #ab47bc"></span> <span class="legend-label">Gunungkidul</span></div>
+      <button id="reset-btn">RESET PILIHAN</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-compass/dist/leaflet-compass.min.js"></script>
+    <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+
+    <script>
+      // ================= PETA =================
+      const map = L.map("map").setView([-7.875, 110.426], 10);
+
+      // Basemap
+      const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "Imam Syamsuddin – NIM 246111022",
+      }).addTo(map);
+
+      // Skala & Kompas
+      L.control.scale().addTo(map);
+      L.control.compass({ position: "topright" }).addTo(map);
+
+      // ================= WARNA =================
+      const warna = {
+        "Kota Yogyakarta": "#ef5350",
+        Sleman: "#42a5f5",
+        Bantul: "#66bb6a",
+        "Kulon Progo": "#ffee58",
+        Gunungkidul: "#ab47bc",
+      };
+
+      // ================= LAYER SHP =================
+      const kota = L.layerGroup().addTo(map);
+      const sleman = L.layerGroup().addTo(map);
+      const bantul = L.layerGroup().addTo(map);
+      const kulonprogo = L.layerGroup().addTo(map);
+      const gunungkidul = L.layerGroup().addTo(map);
+
+      fetch("diy_kabkota.geojson")
+        .then((res) => res.json())
+        .then((data) => {
+          data.features.forEach((f, i) => {
+            const nama = f.properties.kab_kota;
+            if (!nama || !warna[nama]) {
+              console.warn(`Fitur ke-${i + 1} tidak memiliki nama_kab yang valid:`, f.properties);
+              return;
+            }
+            const layer = L.geoJSON(f, {
+              style: {
+                color: warna[nama], // border warna sesuai kabupaten
+                weight: 4, // border lebih tebal
+                fillColor: warna[nama],
+                fillOpacity: 0.5,
+                dashArray: "6,4", // garis putus-putus agar lebih menarik
+              },
+              onEachFeature: function (feature, lyr) {
+                // Tambah label di tengah polygon
+                const center = lyr.getBounds().getCenter();
+                const label = L.marker(center, {
+                  icon: L.divIcon({
+                    className: "kab-label",
+                    html: `<b style=\"color:#222;text-shadow:1px 1px 6px #fff,0 0 2px #000;font-size:18px;\">${nama}</b>`,
+                    iconSize: [120, 24],
+                    iconAnchor: [60, 12],
+                  }),
+                });
+                label.addTo(map);
+              },
+            }).bindPopup(`<b>${nama}</b>`);
+
+            if (nama === "Kota Yogyakarta") layer.addTo(kota);
+            if (nama === "Sleman") layer.addTo(sleman);
+            if (nama === "Bantul") layer.addTo(bantul);
+            if (nama === "Kulon Progo") layer.addTo(kulonprogo);
+            if (nama === "Gunungkidul") layer.addTo(gunungkidul);
+          });
+        });
+
+      // ================= ICON =================
+      // Icon SVG modern untuk Rumah Sakit dan Puskesmas
+      const iconRS = L.icon({
+        iconUrl:
+          "data:image/svg+xml;utf8,<svg width='38' height='38' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='19' cy='19' r='18' fill='%23fff' stroke='%23e53935' stroke-width='3'/><rect x='10' y='17' width='18' height='4' rx='2' fill='%23e53935'/><rect x='17' y='10' width='4' height='18' rx='2' fill='%23e53935'/></svg>",
+        iconSize: [38, 38],
+        iconAnchor: [19, 38],
+        popupAnchor: [0, -30],
+        className: "icon-rs",
+      });
+
+      const iconPkm = L.icon({
+        iconUrl:
+          "data:image/svg+xml;utf8,<svg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='16' fill='%23fff' stroke='%2300bfae' stroke-width='3'/><rect x='10' y='16' width='16' height='4' rx='2' fill='%2300bfae'/><rect x='16' y='10' width='4' height='16' rx='2' fill='%2300bfae'/></svg>",
+        iconSize: [36, 36],
+        iconAnchor: [18, 36],
+        popupAnchor: [0, -28],
+        className: "icon-pkm",
+      });
+
+      // ================= KML =================
+      function loadKML(file, icon, title) {
+        omnivore
+          .kml(file)
+          .on("ready", function () {
+            this.eachLayer((l) => {
+              l.setIcon(icon);
+              const p = l.feature && l.feature.properties ? l.feature.properties : {};
+              // Tampilkan nama & alamat jika ada, fallback ke '-' jika kosong
+              let nama = p.name || p.Nama || p.nama || "-";
+              let alamat = p.description || p.Deskripsi || p.alamat || "-";
+              l.bindPopup(`
+                <b>${title}</b><br>
+                Nama: ${nama}<br>
+                Alamat: ${alamat}
+              `);
+            });
+          })
+          .addTo(map);
+      }
+
+      loadKML("Rumah sakit1.kml", iconRS, "Rumah Sakit");
+      loadKML("Rumah sakit2.kml", iconRS, "Rumah Sakit");
+      loadKML("puskesmas3.kml", iconPkm, "Puskesmas");
+
+      // ================= LEGENDA (BENAR & BERFUNGSI) =================
+      // Hapus kontrol layer default, pakai custom legend
+
+      // Tombol reset: tampilkan semua layer kabupaten
+      document.getElementById("reset-btn").onclick = function () {
+        map.addLayer(kota);
+        map.addLayer(sleman);
+        map.addLayer(bantul);
+        map.addLayer(kulonprogo);
+        map.addLayer(gunungkidul);
+        // Aktifkan semua legend
+        document.querySelectorAll("#custom-legend .legend-item").forEach(function (el) {
+          el.classList.remove("legend-off");
+        });
+      };
+
+      // Legend interaktif: klik nama kabupaten untuk show/hide layer
+      document.querySelectorAll("#custom-legend .legend-item").forEach(function (el) {
+        el.style.cursor = "pointer";
+        el.onclick = function () {
+          const layerName = el.getAttribute("data-layer");
+          let layerObj = null;
+          if (layerName === "kota") layerObj = kota;
+          if (layerName === "sleman") layerObj = sleman;
+          if (layerName === "bantul") layerObj = bantul;
+          if (layerName === "kulonprogo") layerObj = kulonprogo;
+          if (layerName === "gunungkidul") layerObj = gunungkidul;
+          if (!layerObj) return;
+          if (map.hasLayer(layerObj)) {
+            map.removeLayer(layerObj);
+            el.classList.add("legend-off");
+          } else {
+            map.addLayer(layerObj);
+            el.classList.remove("legend-off");
+          }
+        };
+      });
+
+      // Style legend-off
+      const style = document.createElement("style");
+      style.innerHTML = `.legend-off { opacity: 0.5; text-decoration: line-through; }`;
+      document.head.appendChild(style);
+    </script>
+  </body>
+</html>

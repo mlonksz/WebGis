@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>Rumah sakit</name>
+	<Placemark id="1.2.1">
+		<name>Rumah Sakit Permata Husada</name>
+		<address>JL. Raya KM 4 RT, Kauman, Pleret, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</address>
+		<phoneNumber>(0274) 441313</phoneNumber>
+		<snippet>JL. Raya KM 4 RT, Kauman, Pleret, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a56bcda8711fb:0x68ef001b80ab6cf2&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a56bcda8711fb:0x68ef001b80ab6cf2&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.408148,-7.865638,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>RSI KALASAN JGJ</name>
+		<address>4CFG+RFW, Tegalrejo, Bawuran, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</address>
+		<snippet>4CFG+RFW, Tegalrejo, Bawuran, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a515555555555:0xf12c7fec32f38baf&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a515555555555:0xf12c7fec32f38baf&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4262088,-7.875384899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Rajawali Citra General Hospital</name>
+		<address>Jl. Pleret No.KM 2.5, Banjardadap, Potorono, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55196</address>
+		<phoneNumber>0821-3431-3535</phoneNumber>
+		<snippet>Jl. Pleret No.KM 2.5, Banjardadap, Potorono, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55196</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a56c4442f9a19:0x620bd0f866a31124&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a56c4442f9a19:0x620bd0f866a31124&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4103063,-7.8488563,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Nur Hidayah Hospital</name>
+		<address>Jl. Imogiri Tim. No.KM.11, Bembem, Trimulyo, Kec. Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55781</address>
+		<phoneNumber>0822-3097-0461</phoneNumber>
+		<snippet>Jl. Imogiri Tim. No.KM.11, Bembem, Trimulyo, Kec. Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55781</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a542fb6b953db:0xf4d17da389dd2234&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a542fb6b953db:0xf4d17da389dd2234&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3879968,-7.8861783,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Rumah Sakit Umum Daerah (RSUD) Kota Yogyakarta</name>
+		<address>Jl. Ki Ageng Pemanahan No.1-6, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</address>
+		<phoneNumber>(0274) 371195</phoneNumber>
+		<snippet>Jl. Ki Ageng Pemanahan No.1-6, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a57a7b80d5957:0x119b0fcaefe41db6&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a57a7b80d5957:0x119b0fcaefe41db6&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.377867,-7.824967999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Ridwan</name>
+		<address>4CFG+RFW, Tegalrejo, Bawuran, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</address>
+		<phoneNumber>0857-0071-4794</phoneNumber>
+		<snippet>4CFG+RFW, Tegalrejo, Bawuran, Kec. Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55791</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a51316dee1efb:0xa5594235020e6b7f&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a51316dee1efb:0xa5594235020e6b7f&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4262088,-7.875384899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>RSKIA PKU Muhammadiyah Kotagede</name>
+		<address>Jl. Kemasan No.43, Purbayan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55173</address>
+		<phoneNumber>(0274) 371201</phoneNumber>
+		<snippet>Jl. Kemasan No.43, Purbayan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55173</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a5717b6f26f19:0x2100545536e0a4c3&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a5717b6f26f19:0x2100545536e0a4c3&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4007628,-7.822876099999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>RS Pratama</name>
+		<address>Karanganyar, Jl. Kolonel Sugiyono No.98, Brontokusuman, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153</address>
+		<phoneNumber>(0274) 373249</phoneNumber>
+		<snippet>Karanganyar, Jl. Kolonel Sugiyono No.98, Brontokusuman, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a579f44275031:0xf915605febadc05&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a579f44275031:0xf915605febadc05&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3739058,-7.815600399999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>RSU Griya Mahardhika Yogyakarta</name>
+		<address>Jl. Parangtritis, Km. 4, Gg. Wijaya Kusuma No.212 5, Druwo, Bangunharjo, Kec. Bantul, Daerah Istimewa Yogyakarta 55187</address>
+		<phoneNumber>(0274) 445020</phoneNumber>
+		<snippet>Jl. Parangtritis, Km. 4, Gg. Wijaya Kusuma No.212 5, Druwo, Bangunharjo, Kec. Bantul, Daerah Istimewa Yogyakarta 55187</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a57afc2ca54e3:0xcb7f531314870333&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a57afc2ca54e3:0xcb7f531314870333&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3658266,-7.838591699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Rumah Sakit Bedah Adelia</name>
+		<address>TNI AU Jl. Monumen Perjuangan No.1A, Krobokan, Tamanan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191</address>
+		<phoneNumber>(0274) 4396680</phoneNumber>
+		<snippet>TNI AU Jl. Monumen Perjuangan No.1A, Krobokan, Tamanan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&lng=110.38952004999999&fid=0x2e7a56fb2e433b59:0x30e38baddd3e216c&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851435899999999&amp;lng=110.38952004999999&amp;fid=0x2e7a56fb2e433b59:0x30e38baddd3e216c&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3898875,-7.843221199999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+</Folder>
+</kml>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>Rumah sakit</name>
+	<Placemark id="1.2.1">
+		<name>Hidayatullah Islamic Hospital</name>
+		<address>Jl. Veteran No.184, Pandeyan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55161</address>
+		<phoneNumber>(0274) 389194</phoneNumber>
+		<snippet>Jl. Veteran No.184, Pandeyan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55161</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a5772d6ee627d:0xb391687cf415780f&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a5772d6ee627d:0xb391687cf415780f&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3877552,-7.8153295,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Happy Land Medical Centre</name>
+		<address>Jl. Ipda Tut Harsono Jl. Melati Wetan No.53, Muja Muju, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55165</address>
+		<phoneNumber>(0274) 550060</phoneNumber>
+		<snippet>Jl. Ipda Tut Harsono Jl. Melati Wetan No.53, Muja Muju, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55165</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a59d8484dd769:0x67f9c41e63fec9ba&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a59d8484dd769:0x67f9c41e63fec9ba&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3919208,-7.793966999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>RSU Rachma Husada</name>
+		<address>JL. Parantritis, Km. 16, Gerselo Patalan, Jetis, Patalan, Bantul, Ketandan, Patalan, Kec. Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55781</address>
+		<phoneNumber>(0274) 6460091</phoneNumber>
+		<snippet>JL. Parantritis, Km. 16, Gerselo Patalan, Jetis, Patalan, Bantul, Ketandan, Patalan, Kec. Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55781</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a57afd139a927:0x90e326d6bacd8e27&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a57afd139a927:0x90e326d6bacd8e27&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3452297,-7.932617599999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Asri Medical Centre (AMC)</name>
+		<address>Jl. HOS Cokroaminoto No.17B, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253</address>
+		<phoneNumber>(0274) 618400</phoneNumber>
+		<snippet>Jl. HOS Cokroaminoto No.17B, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a57f4f8bdaec5:0x5dbee8a4bab35cbe&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a57f4f8bdaec5:0x5dbee8a4bab35cbe&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3517186,-7.799648699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Rumah Sakit Hermina Yogya</name>
+		<address>Jl. Selokan Mataram, RT.06/RW.50, Meguwo, Maguwoharjo, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282</address>
+		<phoneNumber>(0274) 2800808</phoneNumber>
+		<snippet>Jl. Selokan Mataram, RT.06/RW.50, Meguwo, Maguwoharjo, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a5a2220ab04b7:0xa58fe89efa26396e&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a5a2220ab04b7:0xa58fe89efa26396e&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4327726,-7.770254199999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>PKU Muhammadiyah Yogyakarta Hospital</name>
+		<address>Jl. KH. Ahmad Dahlan No.20, Ngupasan, Kec. Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55122</address>
+		<phoneNumber>(0274) 512653</phoneNumber>
+		<snippet>Jl. KH. Ahmad Dahlan No.20, Ngupasan, Kec. Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55122</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a5789348d80a1:0x7b6a2154d80337be&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a5789348d80a1:0x7b6a2154d80337be&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3622559,-7.8011392,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Ludira Husada Tama Hospital</name>
+		<address>Jl. Wiratama No.4, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55244</address>
+		<phoneNumber>(0274) 620333</phoneNumber>
+		<snippet>Jl. Wiratama No.4, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55244</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a581eaed24789:0xc69089e3e4a74854&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a581eaed24789:0xc69089e3e4a74854&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3530077,-7.792548099999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Bethesda Hospital Yogyakarta</name>
+		<address>Jl. Jend. Sudirman No.70, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224</address>
+		<phoneNumber>(0274) 586688</phoneNumber>
+		<snippet>Jl. Jend. Sudirman No.70, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a5832e9cbc063:0x47fd17641c7cde46&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a5832e9cbc063:0x47fd17641c7cde46&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.3782159,-7.783265699999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Rumah Sakit Umum Daerah ( RSUD) Prambanan</name>
+		<address>Jl. Raya Piyungan - Prambanan No.KM. 7, Delegan, Sumberharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55572</address>
+		<phoneNumber>(0274) 4398357</phoneNumber>
+		<snippet>Jl. Raya Piyungan - Prambanan No.KM. 7, Delegan, Sumberharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55572</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7a5054e98e5c27:0x1fc6215e73beb1ff&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7a5054e98e5c27:0x1fc6215e73beb1ff&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.4831528,-7.8046403,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Rumah Sakit UII</name>
+		<address>Jl. Srandakan Blok KM, Jodog, Wijirejo, Kec. Pandak, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55761</address>
+		<phoneNumber>(0274) 2812999</phoneNumber>
+		<snippet>Jl. Srandakan Blok KM, Jodog, Wijirejo, Kec. Pandak, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55761</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&lng=110.38811275&fid=0x2e7aff10910217c3:0xb2da7d64ee97d016&hl=en&gl=id&client=earth-client&cv=7.3.6.10441&useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-7.851523649999998&amp;lng=110.38811275&amp;fid=0x2e7aff10910217c3:0xb2da7d64ee97d016&amp;hl=en&amp;gl=id&amp;client=earth-client&amp;cv=7.3.6.10441&amp;useragent=GoogleEarth/7.3.6.10441(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>110.2958873,-7.9093325,0</coordinates>
+		</Point>
+	</Placemark>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+</Folder>
+</kml>
